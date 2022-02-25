@@ -5,6 +5,7 @@ import a
 import s
 import sys
 
+#Script to be ran with proper input. Utilizes modules to print requested statistics.
 parsed_inputs = parse_input.parse_input(sys.argv[1:]) #[-N, -y, -M, -a, -s, -i]
 parsed_data = parse_file.process_file(parsed_inputs)
 if parsed_inputs[2]==1:
