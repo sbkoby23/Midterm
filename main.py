@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import parse_input
 import parse_file
 import M
